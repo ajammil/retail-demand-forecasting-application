@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images/logos">
+        <file>AWS_AWS_logo_RGB.png</file>
+        <file>AWS_AWS_logo_RGB_REV.png</file>
+    </qresource>
+</RCC>

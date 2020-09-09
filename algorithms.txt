@@ -1,0 +1,12 @@
+CNN-QR
+arn:aws:forecast:::algorithm/CNN-QR
+DeepAR+
+arn:aws:forecast:::algorithm/Deep_AR_Plus
+Prophet
+arn:aws:forecast:::algorithm/Prophet
+NPTS
+arn:aws:forecast:::algorithm/NPTS
+ARIMA
+arn:aws:forecast:::algorithm/ARIMA
+ETS
+arn:aws:forecast:::algorithm/ETS
