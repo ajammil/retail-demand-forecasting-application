@@ -45,7 +45,7 @@ def buttons_connector(ui):
         ui, ui.select_ds_group_page, "Creating dataset group..")
                                                    )
     ui.back_new_dataset_group_pb.clicked.connect(lambda: call_worker(
-        lambda: populate_forecasts(ui), ui, ui.select_forecast_page, 'Loading..')
+        lambda: populate_dataset_groups(ui), ui, ui.select_ds_group_page, 'Loading..')
                                                  )
 
     # Datasets Page Connectors

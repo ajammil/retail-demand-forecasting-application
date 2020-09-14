@@ -13,7 +13,7 @@ def s3_initialize(s3_resource, s3_client, region):
     """Gets the application's bucket if it exists in the region, and creates a new one if it doesn't exist"""
 
     for bucket in s3_client.list_buckets()["Buckets"]:
-        if s3_client.get_bucket_location(Bucket=bucket['Name'])['LocationConstraint'] == 'eu-west-1':
+        if s3_client.get_bucket_location(Bucket=bucket['Name'])['LocationConstraint'] == region:
             if 'retail-demand-forecasting-' in bucket["Name"]:
                 return bucket["Name"]
 

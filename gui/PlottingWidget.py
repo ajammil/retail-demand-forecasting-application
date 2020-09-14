@@ -136,8 +136,8 @@ def draw_df(self, df):
     self.df = df
     self.clear_fig()
     convert_date(self.df)
-    self.x = df['date'].to_numpy()
-    self.y = df['p50'].to_numpy()
+    self.x = self.df['date'].to_numpy()
+    self.y = self.df['p50'].to_numpy()
     self.ax.plot(self.x, self.y, marker='o')
     self.ax.set_ylim(ymin=0)
     self.fig.canvas.draw()
